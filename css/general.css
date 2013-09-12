@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	background-color: #ccc;
+}
+
+
+h1 {
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-family: 'Poiret One', cursive;
+  	font-size: 20px;
+}
+
+.subhead {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+	padding-left: 0;
+	margin-top: -0em;
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+  	font-size: 28px;
+	padding: 0;
+	margin: 0;
+	padding-left: 1em;
+}
+
+h3 {
+	font-family: 'Poiret One', cursive;
+  	font-size: 19px;
+	padding: 0 0 1em 0;
+	margin: 0;
+	padding-left: 1.5em;
+}
+
+.social {
+	text-align:center;
+	padding: 0 50px;
+}
+
+.facebook {
+	width: 30px;
+	margin: 2%;
+	
+}
+
+.twitter {
+	width: 30px;
+	margin: 2%;
+}
+
+.linkedin {
+	width:30px;
+	margin: 2%;
+}
+
+.email {
+	width: 30px;
+	margin: 2%;
+}
+
+.icon {
+	color: #888;
+	width: 2rem;
+	display: inline-block;
+	
+}
+
+figcaption {
+	font-family:Verdana, Geneva, sans-serif;
+	font-style: italic;
+	font-size:10px;
+	color: #000;
+	padding: 0 0.4em;
+}
+
+.author {
+	font-style: normal;
+	font-size:10px;
+	color: #999;
+	padding: .5em 0 2em 0;
+	padding-left: 9em;
+}
+
+article {
+	background-color: #fff;
+	padding: 0.5em;
+	border-radius: 10px;
+	box-shadow: 0 3px 4px grey;
+}
+
+.intro {
+	color: #333;
+	border-bottom: 5px solid #999;
+	border-top: 5px solid #999;
+	padding: 1em 0.5em;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align: justify;
+}
+	
+.flex-img {
+	width: 100%;
+}
+
+dt {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-style: normal;
+	color: grey;	
+	margin-top: 10px;
+	text-align: center;
+}
+
+dd {
+	font-family: Verdana, Geneva, sans-serif;
+	font-style:normal;
+	font-size: 14px;	
+	color: #333;
+	margin: 0;
+	text-align: center;
+}
+
+figure {
+	margin: 0 -0.5em;
+}
+
+
+	
+
+@media only screen and (min-width: 19em) {
+	
+	dl {
+		border: 1px solid red;
+	/*
+		Clearfix: forces the <dl> to wrap around its floated children
+	*/
+		overflow: hidden;
+	}
+	
+	dt {
+		float: left;
+		clear: both;
+	}
+	
+	dd {
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 36em) {
+	
+	figure {
+		float: left;
+		width: 40%;
+		margin: 0;	
+	
+}
