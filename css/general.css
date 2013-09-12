@@ -143,7 +143,6 @@ figure {
 @media only screen and (min-width: 19em) {
 	
 	dl {
-		border: 1px solid red;
 	/*
 		Clearfix: forces the <dl> to wrap around its floated children
 	*/
