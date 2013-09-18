@@ -201,13 +201,36 @@ figure {
 
 @media only screen and (min-width: 40em) {
 	
+	.header {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.logo {
+		max-width: 225px;
+		width: 100%;
+		margin: 0 auto;
+		display:block;	
+	}
+	
 	h1 {
-		text-align:left;
-		font-size:24px;
+		padding: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+		font-family: 'Prosto One', cursive;
+		font-size: 24px;
+		text-align: center;
+		clear:both;
 	}
 	
 	.subhead {
-		text-align: left;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: 14px;
+		color: #000;
+		padding-left: 0;
+		margin-top: -0em;
+		text-align:center;
+		clear:both;
 	}
 	
 	figure {
@@ -247,6 +270,38 @@ figure {
 
 @media only screen and (min-width: 60em) {
 	
+	.header {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.logo {
+		max-width: 275px;
+		width: 100%;
+		margin: 0 auto;
+		display:block;	
+	}
+	
+	h1 {
+		padding: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+		font-family: 'Prosto One', cursive;
+		font-size: 24px;
+		text-align: center;
+		clear: both;
+	}
+	
+	.subhead {
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: 18px;
+		color: #000;
+		padding-left: 0;
+		margin-top: -0em;
+		text-align:center;
+		clear:both;
+	}
+	
 	figure {
 		float: left;
 		width: 40%;
@@ -254,22 +309,31 @@ figure {
 	}
 	
 	.intro {
-	color: #333;
-	border-bottom: 5px solid #999;
-	border-top: 5px solid #999;
-	padding: 1em 0.5em;
-	margin-left: -0.5em;
-	margin-right: -0.5em;
-	font-family: 'Rationale', sans-serif;
-	font-size:14px;
-	text-align: justify;
-}
-
-dl {
+		color: #333;
+		border-bottom: 5px solid #999;
+		border-top: 5px solid #999;
+		padding: 1em 0.5em;
+		margin-left: -0.5em;
+		margin-right: -0.5em;
+		font-family: 'Rationale', sans-serif;
+		font-size:14px;
+		text-align: justify;
+		clear:both;
+	}
+	
+	.social {
+		text-align:center;
+		padding: 0 px;
+		clear: both;
+	}
+	
+	dl {
 	/*
 		Clearfix: forces the <dl> to wrap around its floated children
 	*/
 		overflow: hidden;
+		clear: both;
+		text-align: right;
 	}
 	
 	dt {
@@ -280,51 +344,47 @@ dl {
 		clear: both;
 	}
 	
-	dl {
-		clear:both;
-	}
 
 }
 
 @media only screen and (min-width: 80em) {
 	
+	.header {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	}
+	
+	.logo {
+		max-width: 275px;
+		width: 100%;
+		margin: 0 auto;
+		display:block;	
+	}
+	
+	h1 {
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-family: 'Prosto One', cursive;
+  	font-size: 32px;
+	text-align: center;
+	clear: both;
+	}
+	
+	.subhead {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #000;
+	padding-left: 0;
+	margin-top: -0em;
+	text-align:center;
+	clear:both;
+	}
+		
 	figure {
 		float: left;
 		width: 40%;
 		margin: 0;
 	}
-	
-	dl {
-	/*
-		Clearfix: forces the <dl> to wrap around its floated children
-	*/
-	overflow: hidden;
-	}
-	
-	dt {
-		clear: both;
-	}
-	
-	dd {
-		clear: both;
-	}
-	
-	dl {
-		clear:both;
-	}
-	
-	.flex-img {
-	max-width: 285px;
-	width: 100%;
-	margin: 0;
-	display:block;
-	}
-	
-	body {
-		height: 100%;
-		width:100%; 
-		margin: 0;
-		padding: 0;
-	}
-	
 }
