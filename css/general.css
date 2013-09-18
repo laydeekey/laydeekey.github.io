@@ -11,6 +11,17 @@ html {
 	background-color: #ccc;
 }
 
+.navigation {
+	display: block;
+	color: #000;
+	font-family: 'Prosto One', cursive;
+	font-size: 12px;
+	margin-right: 6em;
+	margin-left: 0;
+	text-align: center;
+	
+}
+
 .header {
 	margin: 0;
 	padding: 0;
@@ -44,6 +55,7 @@ h1 {
 h2 {
 	font-family: 'Prosto One', cursive;
   	font-size: 28px;
+	text-align: center;
 	padding: 0;
 	margin: 0;
 }
@@ -51,7 +63,8 @@ h2 {
 h3 {
 	font-family: 'Prosto One', cursive;
   	font-size: 18px;
-	padding: 0 0 1em 0;
+	text-align: center;
+	padding-bottom: 1em;
 	margin: 0;
 }
 
@@ -63,7 +76,6 @@ h3 {
 .facebook {
 	width: 30px;
 	margin: 2%;
-	
 }
 
 .twitter {
@@ -85,7 +97,6 @@ h3 {
 	color: #888;
 	width: 2rem;
 	display: inline-block;
-	
 }
 
 .quote {
@@ -226,6 +237,11 @@ figure {
 	dl {
 		margin-top: 0;
 	}
+	
+	.social {
+	text-align:center;
+	padding: 0 50px;
+	}
 		
 }
 
@@ -236,6 +252,38 @@ figure {
 		width: 40%;
 		margin: 0;
 	}
+	
+	.intro {
+	color: #333;
+	border-bottom: 5px solid #999;
+	border-top: 5px solid #999;
+	padding: 1em 0.5em;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	font-family: 'Rationale', sans-serif;
+	font-size:14px;
+	text-align: justify;
+}
+
+dl {
+	/*
+		Clearfix: forces the <dl> to wrap around its floated children
+	*/
+		overflow: hidden;
+	}
+	
+	dt {
+		clear: both;
+	}
+	
+	dd {
+		clear: both;
+	}
+	
+	dl {
+		clear:both;
+	}
+
 }
 
 @media only screen and (min-width: 80em) {
@@ -245,4 +293,38 @@ figure {
 		width: 40%;
 		margin: 0;
 	}
+	
+	dl {
+	/*
+		Clearfix: forces the <dl> to wrap around its floated children
+	*/
+	overflow: hidden;
+	}
+	
+	dt {
+		clear: both;
+	}
+	
+	dd {
+		clear: both;
+	}
+	
+	dl {
+		clear:both;
+	}
+	
+	.flex-img {
+	max-width: 285px;
+	width: 100%;
+	margin: 0;
+	display:block;
+	}
+	
+	body {
+		height: 100%;
+		width:100%; 
+		margin: 0;
+		padding: 0;
+	}
+	
 }
