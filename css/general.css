@@ -11,14 +11,6 @@ html {
 	background-color: #ccc;
 }
 
-
-.background {
-	width: 100%;
-	background-position:inherit;	
-	margin: 0;
-	padding: 0;
-}
-
 .header {
 	margin: 0;
 	padding: 0;
