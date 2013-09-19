@@ -230,8 +230,8 @@ figure {
 		padding-left: 0;
 		margin-top: -0em;
 		text-align:center;
-		clear:both;
-	}
+		float: none;
+			}
 	
 	figure {
 		float: left;
