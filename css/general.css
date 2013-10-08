@@ -15,11 +15,19 @@ html {
 	display: block;
 	color: #000;
 	font-family: 'Prosto One', cursive;
-	font-size: 12px;
-	margin-right: 6em;
-	margin-left: 0;
+	font-size: 16px;
+	margin: 0;
 	text-align: center;
 	
+}
+
+.navigation ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.navigation a {
+	text-decoration: none;
 }
 
 .header {
@@ -50,6 +58,11 @@ h1 {
 	padding-left: 0;
 	margin-top: -0em;
 	text-align:center;
+}
+
+.contact {
+	clear: both;
+	padding: 3em 0;
 }
 
 h2 {
@@ -122,7 +135,7 @@ figcaption {
 
 article {
 	background-color: #fff;
-	padding: 0.5em;
+	padding: 3.5em;
 	border-radius: 10px;
 	box-shadow: 0 3px 4px grey;
 }
@@ -201,16 +214,26 @@ figure {
 
 @media only screen and (min-width: 40em) {
 	
+	article {
+		padding-top: 0;
+	}
+	
+	.navigation {
+		padding-bottom: 2em;
+	}
+	
+	.intro {
+		margin-top: 3em;
+	}
+	
+	
 	.header {
 		margin: 0;
 		padding: 0;
 	}
 	
 	.logo {
-		max-width: 225px;
-		width: 100%;
-		margin: 0 auto;
-		display:block;	
+		max-width: 225px;	
 	}
 	
 	h1 {
@@ -277,9 +300,6 @@ figure {
 	
 	.logo {
 		max-width: 275px;
-		width: 100%;
-		margin: 0 auto;
-		display:block;	
 	}
 	
 	h1 {
@@ -355,11 +375,8 @@ figure {
 	clear: both;
 	}
 	
-	.logo {
-		max-width: 275px;
-		width: 100%;
-		margin: 0 auto;
-		display:block;	
+	.logo {	
+		float: left;
 	}
 	
 	h1 {
@@ -368,18 +385,21 @@ figure {
 	margin-left: 0;
 	font-family: 'Prosto One', cursive;
   	font-size: 32px;
-	text-align: center;
+	text-align: left;
 	clear: both;
+	float: right;
 	}
 	
 	.subhead {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 20px;
 	color: #000;
-	padding-left: 0;
-	margin-top: -0em;
-	text-align:center;
+	padding-right: 15em;
+	padding-top: 0;
+	margin-bottom: 10em;
+	text-align:left;
 	clear:both;
+	float: right;
 	}
 		
 	figure {
